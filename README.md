@@ -21,19 +21,7 @@ Architecture Overview
 
 Data Flow:
 
-Source Files ->
-   
-Azure Data Factory ->
-   
-Azure SQL Database ->
-    (Incremental Load using Watermark)
-Azure Data Lake Storage (Bronze) ->
-   
-Databricks (Spark) ->
-   
-Silver Layer (Cleaned & Transformed) ->
-   
-Gold Layer (Dimension Tables) ->
+Source Files -> Azure Data Factory -> Azure SQL Database (Incremental Load using Watermark) -> Azure Data Lake Storage (Bronze) -> Databricks (pySpark) -> Silver Layer (Cleaned & Transformed) -> Gold Layer (Dimension Tables)
 
 Key Engineering Features
 
