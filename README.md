@@ -45,7 +45,7 @@ Azure Data Lake Storage (ADLS Gen2) – Bronze layer storage
 
 Azure Databricks – Data processing using PySpark
 
-Apache Spark – Distributed transformations
+Azure Databricks – Distributed transformations
 
 Delta / Parquet – Storage format (as applicable)
 
