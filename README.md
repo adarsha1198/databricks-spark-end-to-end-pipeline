@@ -1,6 +1,6 @@
 End-to-End Data Engineering Pipeline using Azure ADF, ADLS & Databricks
 Project Overview
-
+End-to-End Azure Data Engineering Pipeline processing 550K+ records using ADF, ADLS, Databricks, PySpark, and Delta Lake following Medallion Architecture with incremental processing and Star Schema modeling.
 This project demonstrates an end-to-end data engineering pipeline built using Azure Data Factory, Azure SQL Database, Azure Data Lake Storage, and Databricks following the Medallion Architecture (Bronze, Silver, Gold).
 
 The goal was to ingest raw source data, process it incrementally, and transform it into analytics-ready Gold layer dimension tables for downstream reporting and analysis.
@@ -34,6 +34,16 @@ Databricks (Spark)
 Silver Layer (Cleaned & Transformed)
    ↓
 Gold Layer (Dimension Tables)
+
+Key Engineering Features
+
+• Medallion Architecture (Bronze, Silver, Gold)
+• Incremental pipeline using watermark logic
+• SCD Type 1 implementation using Delta Lake MERGE
+• Surrogate key generation
+• Fact and Dimension modeling (Star Schema)
+• Spark distributed transformations
+
 
 Tech Stack
 
