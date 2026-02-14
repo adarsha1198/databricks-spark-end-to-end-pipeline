@@ -33,6 +33,10 @@ Data Flow:
 
 Source Files -> Azure Data Factory -> Azure SQL Database (Incremental Load using Watermark) -> Azure Data Lake Storage (Bronze) -> Databricks (pySpark) -> Silver Layer (Cleaned & Transformed) -> Gold Layer (Dimension Tables)
 
+## Architecture Diagram
+Source → ADF → ADLS Bronze → Databricks Silver → Gold → Fact Table
+![Architecture](screenshot/architecture.png)
+
 Key Engineering Features
 
 • Medallion Architecture (Bronze, Silver, Gold)
