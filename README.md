@@ -5,6 +5,16 @@ This project demonstrates an end-to-end data engineering pipeline built using Az
 
 The goal was to ingest raw source data, process it incrementally, and transform it into analytics-ready Gold layer dimension tables for downstream reporting and analysis.
 
+Technologies Used
+
+• Azure Data Factory
+• Azure Data Lake Storage Gen2
+• Azure Databricks
+• Apache Spark (PySpark)
+• Delta Lake
+• SQL
+• Python
+
 Business Problem
 
 The business receives raw data files from source systems and needs a scalable, incremental, and reliable pipeline to:
